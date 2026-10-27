@@ -1,0 +1,23 @@
+{
+  "name": "andrescardenas-aa5-ev01",
+  "version": "1.0.0",
+  "description": "Servicio web de registro e inicio de sesion (GA7-220501096-AA5-EV01) - Proyecto SGB",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Andrés Cárdenas",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}
