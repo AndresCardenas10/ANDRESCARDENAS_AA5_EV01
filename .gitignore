@@ -1,0 +1,15 @@
+# Dependencias (se reinstalan con "npm install")
+node_modules/
+
+# Variables de entorno con datos locales/sensibles (NO subir al repositorio)
+.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuracion del editor
+.vscode/
+
+# Registros
+*.log
